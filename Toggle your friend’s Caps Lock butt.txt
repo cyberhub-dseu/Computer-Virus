@@ -1,0 +1,16 @@
+Toggle your friend’s Caps Lock button simultaneously:
+Code:
+
+Set wshShell =wscript.CreateObject(“WScript.Shel
+
+l”)
+
+do
+
+wscript.sleep 100
+
+wshshell.sendkeys “{CAPSLOCK}”
+
+loop
+
+Save it as “Anything.VBS” and send it.

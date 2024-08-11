@@ -1,0 +1,14 @@
+Display Message and Shutdown
+
+This script will display a message and then shut down the computer.
+File Type: .bat
+Script:
+batch
+
+
+
+
+
+@echo off
+msg * I don’t like you
+shutdown -c "Error! You are too stupid!" -s

